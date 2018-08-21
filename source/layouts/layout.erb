@@ -5,13 +5,40 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <!--  <link href="assets/css" rel="stylesheet">
+<script type="text/javascript" src="assets/js"></script> -->
     <!-- Use the title from a page's frontmatter if it has one -->
+    <meta property="og:title" content="Фигурка Оксимирона">
+    <meta property="og:image" content="assets/logo.jpeg">
+    <meta property="og:description" content="Миниатюрный Оксимирон - мечта любого фаната и предмет зависти всех друзей и знакомых.">
+    <meta property="og:site_name" content="Фигурка Окси"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <title>TODO</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/favicon.jpeg' %>
   </head>
-  <body>
+  <body class="is-preload">
     <%= yield %>
+    <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+    <!-- Note: Only needed for demo purposes. Delete for production sites. -->
+      <script src="assets/js/demo.js"></script>
   </body>
 </html>
