@@ -2,7 +2,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :sprockets
+# activate :sprockets
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -21,6 +21,6 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
 end
 
-set :css_dir, 'assets/stylesheets'
-set :js_dir, 'assets/javascripts'
+# set :css_dir, 'assets/stylesheets'
+# set :js_dir, 'assets/javascripts'
 # set :images_dir, 'assets/images'
