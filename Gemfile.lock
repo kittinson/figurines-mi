@@ -115,8 +115,6 @@ GEM
     ptools (1.3.5)
     public_suffix (3.0.3)
     rack (2.0.5)
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -153,7 +151,6 @@ DEPENDENCIES
   middleman-deploy!
   middleman-sprockets
   pry-byebug
-  rack-contrib (~> 1.1.0)
   sprockets (= 4.0.0.beta2)
   sprockets-commoner
 
