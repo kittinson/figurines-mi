@@ -183,3 +183,14 @@
 // Layout.
 
 	@import 'layout/wrapper';
+
+@media only screen and (max-width: 600px) {
+    .form {
+      text-align:center;
+     }
+    .icons-section {
+       text-align:center;
+    }
+
+  }
+

@@ -23,6 +23,7 @@
 				height: 2.75em;
 				line-height: 2.75em;
 				width: 2.75em;
+
 			}
 		}
 
@@ -53,6 +54,7 @@
  			&.style2 {
  				&:before {
 					box-shadow: inset 0 0 0 _size(border-width) _palette($p, border);
+
  				}
  			}
  		}
