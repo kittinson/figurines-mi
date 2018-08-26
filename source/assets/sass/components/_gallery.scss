@@ -368,7 +368,7 @@
 				width: 100%;
 				height: 100%;
 				background-color: transparentize(_palette(invert, bg), 1 - _misc(overlay-opacity));
-				opacity: 0;
+				opacity: 1;
 				padding: 3rem;
 				z-index: 1;
 				font-size: 0.8rem;
