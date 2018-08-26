@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"SassC::SyntaxError: Error: no mixin named vendor\A         on line 10 of source/stylesheets/components/_actions.scss\A         from line 4 of source/stylesheets/components/_index.scss\A         from line 14 of source/stylesheets/application.css.scss\A >> 		@include vendor('display', 'flex');\A    -----------^\A "}
