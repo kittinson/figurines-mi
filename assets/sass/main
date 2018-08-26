@@ -2817,9 +2817,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
     border-color: rgba(0, 0, 0, 0.2);
     width: 100%; }
 
-.banner.style4.android .image:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
-
 .banner.style4.invert .image {
   border-color: white;
   background-color: white;
@@ -2834,9 +2831,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
     border-color: white;
     width: calc(100% + 2px);
     margin-left: -1px; }
-
-.banner.style4.invert.android .image:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
 
 /* Spotlight (transitions) */
 .spotlight.onload-content-fade-up .content {
@@ -3840,9 +3834,6 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
     border-color: rgba(0, 0, 0, 0.2);
     width: 100%; }
 
-.spotlight.style3.android .image:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
-
 .spotlight.style3.invert .image {
   border-color: white;
   background-color: white;
@@ -3857,9 +3848,6 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
     border-color: white;
     width: calc(100% + 2px);
     margin-left: -1px; }
-
-.spotlight.style3.invert.android .image:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
 
 /* Gallery (transitions) */
 .gallery.onload-fade-in article .image img {
@@ -4667,7 +4655,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
-      opacity: 0;
+      opacity: 1;
       padding: 3rem;
       z-index: 1;
       font-size: 0.8rem; }
@@ -5719,8 +5707,6 @@ body.is-preload .items.onload-fade-in > * > .inner {
         border-color: white;
         width: calc(100% + 2px);
         margin-left: -1px; }
-    #wrapper > .invert .banner.style4.android .image:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
     #wrapper > .invert .spotlight .image {
       background-color: rgba(255, 255, 255, 0.125); }
     #wrapper > .invert .spotlight.style3 .image {
@@ -5737,8 +5723,6 @@ body.is-preload .items.onload-fade-in > * > .inner {
         border-color: white;
         width: calc(100% + 2px);
         margin-left: -1px; }
-    #wrapper > .invert .spotlight.style3.android .image:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E"); }
     #wrapper > .invert .gallery article .image {
       background-color: rgba(255, 255, 255, 0.125); }
     #wrapper > .invert .items.style1 > * {
