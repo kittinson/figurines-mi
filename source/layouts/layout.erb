@@ -43,6 +43,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       gtag('config', 'UA-125429989-1');
     </script>
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '192091868082404');
+  fbq('track', 'PageView');
+</script>
+<noscript>< img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=192091868082404&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
   </head>
   <body class="is-preload">
 <!-- Google Tag Manager (noscript) -->
@@ -58,56 +75,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
 
-    <!-- Note: Only needed for demo purposes. Delete for production sites. -->
+
       <script src="assets/js/demo.js"></script>
-         <!--  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script> -->
-     <!--  <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"0b579106d931e1cfd2b4c2042","lid":"f48ea34670"}) })</script> -->
 
-    <!-- <script>
-      <?php
-      if(isset($_POST['email'])) {
-      $email_to = "hype.figurines@mail.ru";
-      $email_subject = "Заказ с сайта";
-
-      function died($error) {
-          // your error code can go here
-          echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-          echo "These errors appear below.<br /><br />";
-          echo $error."<br /><br />";
-          echo "Please go back and fix these errors.<br /><br />";
-          die();
-      }
-      // validation expected data exists
-      if( !isset($_POST['contact_type']) ||
-          !isset($_POST['instagram'])
-          ) {
-          died('We are sorry, but there appears to be a problem with the form you submitted.');
-      }
-
-      $contact_type = $_POST['contact_type']; // not required
-      $instagram = $_POST['instagram']; // required
-
-      if(strlen($error_message) > 0) {
-        died($error_message);
-      }
-
-        $email_message = "Детали заказа.\n\n";
-
-        function clean_string($string) {
-          $bad = array("content-type","bcc:","to:","cc:","href");
-          return str_replace($bad,"",$string);
-        }
-
-      $email_message .= "Вариант: ".clean_string($contact_type)."\n";
-      $email_message .= "Контакт: ".clean_string($instagram)."\n";
-
-      // create email headers
-      $headers = 'From: '.$email."\r\n".
-      'Reply-To: '.$email."\r\n" .
-      'X-Mailer: PHP/' . phpversion();
-      @mail($email_to, $email_subject, $email_message, $headers);
-      ?>
-    </script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
